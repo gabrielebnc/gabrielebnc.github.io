@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.awesome {
+  animation: colorchange 20s infinite alternate;
+  text-shadow: 
+    0 0 4px currentColor;  /* Inner glow */
+ 
+}
+
+@keyframes colorchange {
+  0% {
+    color: #ff0000; /* Bright red */
+  }
+  10% {
+    color: #ff7f00; /* Bright orange */
+  }
+  20% {
+    color: #ffff00; /* Bright yellow */
+  }
+  30% {
+    color: #00ff00; /* Bright green */
+  }
+  40% {
+    color: #00ffff; /* Cyan */
+  }
+  50% {
+    color: #35a2fc; /* Bright blue */
+  }
+  60% {
+    color: #a02bff; /* Bright violet */
+  }
+  70% {
+    color: #ff2b9c; /* Deep pink */
+  }
+  80% {
+    color: #1e90ff; /* Dodger blue */
+  }
+  90% {
+    color: #32cd32; /* Lime green */
+  }
+  100% {
+    color: #ff0000; /* Loops back to bright red */
+  }
+}
+
